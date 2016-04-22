@@ -15,7 +15,6 @@ var _nodejs = (
   typeof process !== 'undefined' && process.versions && process.versions.node);
 var _crypto = null;
 if(!require("./options").disableNativeCode && _nodejs && !process.versions['node-webkit']) {
-  _crypto = require('crypto');
 }
 
 /* PRNG API */
