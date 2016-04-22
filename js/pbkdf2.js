@@ -19,7 +19,6 @@ var _nodejs = (
   typeof process !== 'undefined' && process.versions && process.versions.node);
 var crypto;
 if(_nodejs && !require("./options").disableNativeCode) {
-  crypto = require('crypto');
 }
 
 /**
