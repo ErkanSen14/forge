@@ -68,7 +68,7 @@ var prime = require("./prime");
 var pkcs1 = require("./pkcs1");
 var asn1ct = require("./asn1ClassType");
 
-var BigInteger = require("./jsbn").BigInteger;
+var BigInteger = require("./bn.js").BigInteger;
 
 // asn.1 API
 var asn1 = require("./asn1");
